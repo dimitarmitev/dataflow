@@ -1,0 +1,28 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    background-image: url('/background.png');
+    background-color: #cccccc;
+    width: 1900px;
+    height: 1080px;
+    overflow: hidden;
+}
+
+#app {
+    position:absolute
+    background-image: url('/background.png');
+    background-color: #cccccc;
+}
